@@ -1,0 +1,121 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+#Satyam{
+	margin-left: 12px;
+    margin-top: 2vh;
+    font-size: 3rem;
+}
+#About{
+    margin-top: 12vh;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#About form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: center;
+}
+#About #About1{
+	font-size: 2rem;
+    font-weight: 600;
+}
+#About #About2{
+    font-size: 1.5rem;
+  	max-width: 500px;
+  	font-weight: 550;
+	text-align: center;
+	margin: auto;
+	position: relative;
+	color: red;
+}
+#About2:before{
+	content: "";
+	width: 120px;
+	height: 2px;
+	display: block;
+	background: #ffc907;
+	position: absolute;
+	top: 50%;
+	left: 11vh;
+}
+#About2:after{
+	content: "";
+	width: 120px;
+	height: 2px;
+	display: block;
+	background: #ffc907;
+	position: absolute;
+	top: 50%;
+	right: 11vh;
+}
+#About #About3{
+    margin-top: 2vh;
+    font-size: 1.3rem;
+}
+
+
+
+#Comment{
+	display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    width: 100%;
+}
+#Comment form{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    flex-wrap: wrap;
+}
+#Comment #Comment1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+#Comment #Comment2{
+	font-size: 1.5rem;
+    font-weight: 550;
+    color: red;
+    text-align: center;
+}
+#Comment label{
+    margin-top: 2vh;
+    font-size: 1.2rem;
+}
+#Comment input{
+    height: 34px;
+    border: 1px solid;
+    border-radius: 4px;
+    outline: none;
+    font-size: 1.3rem;
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+#Comment textarea{
+    height: 12vh;
+    border: 1px solid;
+    border-radius: 4px;
+    outline: none;
+    font-size: 1.3rem;
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+#Comment #Commentbtn{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1vh;
+}
+#Comment #Commentbtn button{
+    height: 34px;
+    width: 95px;
+    background-color: deeppink;
+    border: none;
+    color: white;
+}
