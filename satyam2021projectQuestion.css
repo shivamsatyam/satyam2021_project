@@ -55,7 +55,7 @@
     display: flex;
     flex-direction: column;
     padding: 22px;
-    width: 80%;
+    width: 90%;
 }
 #Discussion #Discussion1{
     font-size: 3rem;
@@ -83,7 +83,7 @@ margin-top: 1vh;
 }
 #Discussion textarea{
     height: 11vh;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     border: 1px solid;
     border-radius: 4px;
     outline: none;
@@ -116,7 +116,7 @@ margin-top: 1vh;
     display: flex;
     flex-direction: column;
     padding: 22px;
-    width: 65%;
+    width: 85%;
 }
 #Doubts #Doubts1{
     font-size: 3rem;

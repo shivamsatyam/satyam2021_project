@@ -334,7 +334,7 @@ transform: rotate(141deg);
     margin-top: 4vh;
 }
 .Box{
-    width: 350px;
+    width: 320px;
     text-align: center;
     padding: 3px;
     font-size: 23px;
@@ -350,7 +350,10 @@ transform: rotate(141deg);
     height: 25vh;
     width: 100%;
 }
-
+#Servicesimg{
+    margin: auto;
+    width: 275px;
+}
 
 
 #Contact{
